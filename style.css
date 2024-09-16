@@ -47,10 +47,29 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px; 
     padding: 10px;
     flex-direction: column;
 }
 .b-example-divider{
     margin-top:175px ;
+}
+.mapbox{
+    display: flex;
+    justify-content: center;
+}
+#map{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+#locationh1{
+    background-color: rgb(17, 18, 95);
+    text-align: center;
+    color: white;
+    width: 1000px;
+    margin: auto;
+    margin-bottom:20px;
+    margin-top:60px ;
+    
 }
