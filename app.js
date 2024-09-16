@@ -17,7 +17,7 @@ function search() {
             data.forEach(element => {
                 tblBody += `<tr>
                                 <td class="td">${element.name.common}</td>
-                                <td class="td">${element.flag}</td>
+                                <td class="td"><img src="${element.flags.png}" alt="" style="width:80px;"></td>
                                 <td class="td">${element.capital}</td>
                                 <td class="td">${element.region}</td>
                                 <td class="td">${element.population}</td>
